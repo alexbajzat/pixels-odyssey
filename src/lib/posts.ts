@@ -23,7 +23,7 @@ export function getSortedPostsData() {
     // Combine the data with the id
     return {
       id,
-      ...(matterResult.data as { date: string; title: string; description: string }),
+      ...(matterResult.data as { date: string; title: string; description: string, thumbnail: string }),
     };
   });
 
