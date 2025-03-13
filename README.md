@@ -19,7 +19,7 @@ Feel free to:
 
 ## Contact
 
-- 𝕏 Twitter: [@alexbajzat](https://x.com/alexbajzat)
+- 𝕏: [@alexbajzat](https://x.com/alexbajzat)
 - Instagram: [@alex.bajzat](https://www.instagram.com/alex.bajzat/)
 - LinkedIn: [Alex Bajzat](https://www.linkedin.com/in/alexandru-bajzat-99ba4a112/)
 
