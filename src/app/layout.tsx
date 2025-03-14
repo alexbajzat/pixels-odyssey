@@ -1,16 +1,8 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, JetBrains_Mono } from "next/font/google";
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
+import {JetBrains_Mono} from "next/font/google"
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 const jetbrainsMono = JetBrains_Mono({ subsets: ['latin'] });
 
@@ -27,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${jetbrainsMono.className} bg-zinc-900 text-zinc-100`}
+        className={`${GeistSans.className} ${GeistMono.className} ${jetbrainsMono.className} bg-zinc-900 text-zinc-100`}
       >
         {children}
       </body>
