@@ -10,16 +10,16 @@ export default function Home() {
       <div className="absolute inset-0">
         <ParticlesBackground />
       </div>
-      
+
       <main className="relative max-w-2xl mx-auto px-4 py-16">
         {/* Hero Section */}
         <section className="mb-16">
           <h1 className="text-4xl font-bold mb-6 text-green-500 inline-block">
-            > Hello World_
+            > Pixels Odyssey_
           </h1>
           <div className="w-24 bg-green-500 mx-auto mb-8" />
           <p className="text-zinc-400 leading-relaxed">
-            Building micro-SaaS products in public.
+            From idea to orbit: My micro-SaaS expedition journal.
           </p>
         </section>
 
@@ -40,13 +40,13 @@ export default function Home() {
             </p>
           </div>
           <div className="mt-8 flex justify-center space-x-6 text-zinc-500">
-            <a href="https://twitter.com/yourusername" className="hover:text-green-500 transition-colors">
+            <a href="https://twitter.com/alexbajzat" className="hover:text-green-500 transition-colors">
               𝕏
             </a>
-            <a href="https://linkedin.com/in/your-profile" className="hover:text-green-500 transition-colors">
+            <a href="https://linkedin.com/in/alexandru-bajzat-99ba4a112/" className="hover:text-green-500 transition-colors">
               in
             </a>
-            <a href="https://instagram.com/yourusername" className="hover:text-green-500 transition-colors">
+            <a href="https://instagram.com/alex.bajzat" className="hover:text-green-500 transition-colors">
               ig
             </a>
           </div>
@@ -57,8 +57,8 @@ export default function Home() {
           <h2 className="text-2xl font-bold mb-12 text-green-500 text-center">> Latest Posts_</h2>
           <div className="space-y-6">
             {posts.map((post) => (
-              <Link 
-                key={post.id} 
+              <Link
+                key={post.id}
                 href={`/posts/${post.id}`}
                 className="block group"
               >
@@ -71,15 +71,15 @@ export default function Home() {
                           <span className="text-2xl">📝</span>
                         </div>
                       ) : (
-                        <img 
-                          src={post.thumbnail} 
+                        <img
+                          src={post.thumbnail}
                           alt=""
                           className="w-full h-full object-cover"
                         />
                       )}
                     </div>
                   </div>
-                  
+
                   <div className="flex-1 flex flex-col justify-center">
                     <div className="flex items-baseline justify-between gap-2">
                       <h3 className="text-lg text-zinc-100 group-hover:text-green-500 transition-colors">
